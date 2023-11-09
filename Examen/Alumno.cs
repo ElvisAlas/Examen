@@ -19,12 +19,18 @@ namespace Examen
             Email = email;
         }
 
+        
+
+
         public void MostrarAlumno()
         {
-            Console.WriteLine("Datos del Alumno:");
+          
+            Console.WriteLine("Datos del Alumno");
             Console.WriteLine("Nombre: " + Nombre);
             Console.WriteLine("Número de Cuenta: " + NumeroCuenta);
             Console.WriteLine("Email: " + Email);
+            Console.WriteLine("");
+
         }
 
     }
