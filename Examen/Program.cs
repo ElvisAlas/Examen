@@ -3,7 +3,7 @@ using System;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
         try
         {
@@ -17,10 +17,13 @@ class Program
 
             Console.WriteLine("Ingrese las notas del Alumno ");
             Console.Write("Nota 1: ");
+
             double nota1 = double.Parse(Console.ReadLine());
             Console.Write("Nota 2: ");
+
             double nota2 = double.Parse(Console.ReadLine());
             Console.Write("Nota 3: ");
+
             double nota3 = double.Parse(Console.ReadLine());
 
             Clase clase = new Clase(nombre, numeroCuenta, email, nombreClase, horaClase, nombreCatedratico);

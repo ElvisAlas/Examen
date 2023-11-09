@@ -19,9 +19,6 @@ namespace Examen
             Email = email;
         }
 
-        
-
-
         public void MostrarAlumno()
         {
           
